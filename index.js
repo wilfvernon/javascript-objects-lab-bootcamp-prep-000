@@ -1,7 +1,7 @@
 var recipes = {eggs: 2}
 
-function updateObjectWithKeyAndValue(Object, key, value){
-  return Object.assign({}, Object, {[key]: value})
+function updateObjectWithKeyAndValue(object, key, value){
+  return object.assign({}, object, {[key]: value})
 }
 
   
