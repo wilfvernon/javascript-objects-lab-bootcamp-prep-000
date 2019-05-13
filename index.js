@@ -5,4 +5,7 @@ function updateObjectWithKeyAndValue(object, key, value){
   
 }
 
+function destructivelyUpdateObjectsWithKeyAndValue(object, key, value){
+  return object[key] = value;
+}
   
