@@ -15,5 +15,3 @@ function deleteFromObjectByKey(object, key){
   delete deleted[key]
   return deleted
 }
-
-function
